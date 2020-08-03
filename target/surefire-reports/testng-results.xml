@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34239" started-at="2020-08-03T13:02:25 IST" finished-at="2020-08-03T13:02:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34239" started-at="2020-08-03T13:02:25 IST" finished-at="2020-08-03T13:02:59 IST">
+      <class name="com.flipkart.TestCase.TC_PurchaseProduct">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:com.flipkart.TestCase.TC_PurchaseProduct@6b4a4e18]" name="initalize" is-config="true" duration-ms="9428" started-at="2020-08-03T13:02:25 IST" finished-at="2020-08-03T13:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="loginUser()[pri:0, instance:com.flipkart.TestCase.TC_PurchaseProduct@6b4a4e18]" name="loginUser" duration-ms="974" started-at="2020-08-03T13:02:34 IST" finished-at="2020-08-03T13:02:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="searchAndSelectProduct()[pri:0, instance:com.flipkart.TestCase.TC_PurchaseProduct@6b4a4e18]" name="searchAndSelectProduct" duration-ms="5063" started-at="2020-08-03T13:02:35 IST" depends-on-methods="com.flipkart.TestCase.TC_PurchaseProduct.loginUser" finished-at="2020-08-03T13:02:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectProduct -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:com.flipkart.TestCase.TC_PurchaseProduct@6b4a4e18]" name="purchaseProduct" duration-ms="16851" started-at="2020-08-03T13:02:41 IST" depends-on-methods="com.flipkart.TestCase.TC_PurchaseProduct.searchAndSelectProduct" finished-at="2020-08-03T13:02:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flipkart.TestCase.TC_PurchaseProduct@6b4a4e18]" name="teardown" is-config="true" duration-ms="1836" started-at="2020-08-03T13:02:57 IST" finished-at="2020-08-03T13:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.TestCase.TC_PurchaseProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
